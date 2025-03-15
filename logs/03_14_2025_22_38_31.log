@@ -1,0 +1,9 @@
+[ 2025-03-14 22:38:32,615 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-03-14 22:38:32,615 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-03-14 22:38:36,517 ] 11 root - INFO - Initializing Training Pipeline Configuration...
+[ 2025-03-14 22:38:36,517 ] 24 root - INFO - Data Ingestion Initialized.
+[ 2025-03-14 22:38:36,517 ] 17 root - INFO - Starting Data Ingestion Process...
+[ 2025-03-14 22:38:36,517 ] 101 root - INFO - Starting data ingestion process...
+[ 2025-03-14 22:38:36,518 ] 34 root - INFO - Connecting to MongoDB at None | DB: MISHALAI | Collection: NetworkData
+[ 2025-03-14 22:38:36,560 ] 40 root - INFO - Fetched 0 records from MongoDB.
+[ 2025-03-14 22:38:36,561 ] 25 root - ERROR - Data Ingestion Failed: Error occurred in python script name [C:\PythonProject\Security_Network\networksecurity\components\data_ingestion.py] line number [102] error message [Error occurred in python script name [C:\PythonProject\Security_Network\networksecurity\components\data_ingestion.py] line number [43] error message [No data found in the MongoDB collection!]]

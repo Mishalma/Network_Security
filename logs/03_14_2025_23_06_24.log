@@ -1,0 +1,16 @@
+[ 2025-03-14 23:06:25,514 ] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[ 2025-03-14 23:06:25,515 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-03-14 23:06:29,065 ] 11 root - INFO - Initializing Training Pipeline Configuration...
+[ 2025-03-14 23:06:29,065 ] 24 root - INFO - Data Ingestion Initialized.
+[ 2025-03-14 23:06:29,065 ] 17 root - INFO - Starting Data Ingestion Process...
+[ 2025-03-14 23:06:29,066 ] 101 root - INFO - Starting data ingestion process...
+[ 2025-03-14 23:06:29,066 ] 34 root - INFO - Connecting to MongoDB at mongodb+srv://user:Mis123@cluster1.uxqpz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1 | DB: MISHALAI | Collection: Network_Data
+[ 2025-03-14 23:06:37,234 ] 40 root - INFO - Fetched 11055 records from MongoDB.
+[ 2025-03-14 23:06:37,256 ] 50 root - INFO - DataFrame Shape after cleaning: (11055, 31)
+[ 2025-03-14 23:06:37,403 ] 66 root - INFO - Feature store saved at Artifacts\03_14_2025_23_06_26\data_ingestion\feature_store\phisingData.csv with 11055 rows.
+[ 2025-03-14 23:06:37,403 ] 77 root - INFO - Splitting data with train size: 0.8, test size: 0.2
+[ 2025-03-14 23:06:37,412 ] 84 root - INFO - Train Set Shape: (8844, 31), Test Set Shape: (2211, 31)
+[ 2025-03-14 23:06:37,550 ] 92 root - INFO - Train data saved at: Artifacts\03_14_2025_23_06_26\data_ingestion\ingested\train.csv
+[ 2025-03-14 23:06:37,550 ] 93 root - INFO - Test data saved at: Artifacts\03_14_2025_23_06_26\data_ingestion\ingested\test.csv
+[ 2025-03-14 23:06:37,551 ] 111 root - INFO - Data ingestion completed successfully.
+[ 2025-03-14 23:06:37,551 ] 21 root - INFO - Data Ingestion Completed Successfully.
